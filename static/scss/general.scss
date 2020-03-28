@@ -14,3 +14,12 @@ body {
 .button.is-danger {
     color: white !important;
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    font-size: x-large;
+    font-weight: bold;
+}

@@ -40,6 +40,9 @@
     <main class="content">
       <nuxt />
     </main>
+    <footer>
+      <a href="mailto:viktor@adslab.io">viktor@adslab.io</a>
+    </footer>
   </section>
 </template>
 
