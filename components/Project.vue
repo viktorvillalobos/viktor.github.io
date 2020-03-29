@@ -3,7 +3,7 @@
     <div class="project-header columns is-desktop has-text-centered">
       <div class="project-description column is-8 is-offset-1">
         <p class="project-title title">
-          Talana: the most bigger payroll platform in Latam.
+          Talana.com: backend services and infrastructure.
         </p>
         <p class="project-subtitle">
           Backend services and authentication for talana employee profile, this handle
@@ -35,7 +35,7 @@
 <script>
 export default {
   name: 'Project',
-  props: {
+  /* props: {
     title: {
       type: String,
       required: true
@@ -44,7 +44,7 @@ export default {
       type: String,
       required: true
     }
-  },
+  }, */
   data () {
     return {
       carousels: [

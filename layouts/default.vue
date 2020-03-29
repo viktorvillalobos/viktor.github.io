@@ -18,10 +18,10 @@
         <h1 class="header-title">
           Víctor Villalobos is a
           <vue-typed-js
-            :type-speed="100"
+            :type-speed="60"
             :start-delay="100"
-            :back-delay="100"
-            :back-speed="100"
+            :back-delay="1000"
+            :back-speed="50"
             :loop="true"
             :strings="['Backend Developer.', 'Frontend Developer.', 'DevOps.']"
           >
@@ -32,7 +32,11 @@
       <div class="column header-image is-half-desktop">
         <img
           src="~/assets/img/header.png"
-          srcset="~/assets/img/header2x.png 2x"
+          srcset="
+            ~/assets/img/header-2x.png 2x,
+            ~/assets/img/header-3x.png 3x,
+            ~/assets/img/header-4x.png 4x,
+          "
           alt="people-working"
         >
       </div>

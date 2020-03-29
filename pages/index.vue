@@ -1,5 +1,5 @@
 <template>
-  <section class="section projects">
+  <section class="projects">
     <h2>Projects</h2>
     <div class="projects-wrapper columns is-desktop is-multiline">
       <project class="column" />

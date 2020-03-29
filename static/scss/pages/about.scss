@@ -21,7 +21,6 @@
 .about {
     font-size:larger;
     text-align: justify;
-    margin-right: 5%;
 }
 
 @media(max-width: 767px) { 
@@ -29,8 +28,7 @@
         display: flex;
         flex-direction: column-reverse;
         justify-content:center;
-
-
+        justify-items: center;
 
         p {
             text-align: center;
@@ -45,7 +43,6 @@
     }
 
     .aboutme {
-        margin-bottom: -20%;
         h2 {
             text-align: center;
         }

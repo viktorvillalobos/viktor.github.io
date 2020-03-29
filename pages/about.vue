@@ -1,5 +1,5 @@
 <template>
-  <section class="section aboutme">
+  <section class="aboutme">
     <h2>About</h2>
     <div class="about-wrapper columns is-desktop">
       <div class="column is-3 networks">
