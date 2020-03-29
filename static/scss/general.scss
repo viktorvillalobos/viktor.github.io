@@ -1,14 +1,19 @@
 body {
   a {
-    color: $primary !important;
+    color: $primary;
   }
 }
 
+
+.nuxt-link-exact-active {
+    color: $primary !important;
+}
 
 .navbar {
     .navbar-item {
       font-size: 1.3rem;
     }
+
 }
 
 .button.is-danger {
@@ -23,6 +28,7 @@ footer {
     font-size: x-large;
     font-weight: bold;
 }
+
 
 
 

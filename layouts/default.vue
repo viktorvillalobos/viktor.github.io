@@ -2,10 +2,10 @@
   <section class="container">
     <b-navbar>
       <template slot="start">
-        <b-navbar-item tag="router-link" to="/">
+        <b-navbar-item tag="nuxt-link" to="/" exact>
           Projects
         </b-navbar-item>
-        <b-navbar-item tag="router-link" to="/about">
+        <b-navbar-item tag="nuxt-link" to="/about" exact>
           About
         </b-navbar-item>
         <!-- <b-navbar-item href="#"> -->
