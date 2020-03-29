@@ -1,6 +1,6 @@
 <template>
   <div class="project-item column is-10 is-offset-1">
-    <div class="project-header columns is-mobile">
+    <div class="project-header columns is-desktop has-text-centered">
       <div class="project-description column is-8 is-offset-1">
         <p class="project-title title">
           Talana: the most bigger payroll platform in Latam.

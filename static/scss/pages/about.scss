@@ -1,0 +1,53 @@
+@import '~/static/scss/variables.scss';
+@import '~/static/scss/general.scss';
+
+.socials {
+    display: flex;
+    flex-direction: column;
+    a {
+        font-size:large;
+        font-weight: bold;
+    }
+}
+
+.photo {
+    margin-top: 10%;
+    img {
+        border-radius: 15%;
+        width: 70%;
+    }
+}
+
+.about {
+    font-size:larger;
+    text-align: justify;
+    margin-right: 5%;
+}
+
+@media(max-width: 767px) { 
+    .about-wrapper {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content:center;
+
+
+
+        p {
+            text-align: center;
+        }
+        .socials {
+            text-align: center;
+        }
+
+        .photo {
+            text-align: center;
+        }
+    }
+
+    .aboutme {
+        margin-bottom: -20%;
+        h2 {
+            text-align: center;
+        }
+    }
+}

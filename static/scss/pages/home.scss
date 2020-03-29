@@ -80,3 +80,19 @@ header {
     }
 
 }
+
+
+@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+    .projects {
+        h2 {
+            margin-bottom: 10%;
+            text-align: center;
+        }
+    }
+
+    .show-work {
+        a {
+            margin-bottom: 4%;
+        }
+    }
+}

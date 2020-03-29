@@ -1,8 +1,8 @@
 <template>
   <section class="section projects">
     <h2>Projects</h2>
-    <div class="projects-wrapper columns is-mobile">
-      <project />
+    <div class="projects-wrapper columns is-desktop is-multiline">
+      <project class="column" />
     </div>
   </section>
 </template>
@@ -17,13 +17,6 @@ export default {
   },
   data () {
     return {
-      carousels: [
-        { text: 'Slide 1', color: 'primary' },
-        { text: 'Slide 2', color: 'info' },
-        { text: 'Slide 3', color: 'success' },
-        { text: 'Slide 4', color: 'warning' },
-        { text: 'Slide 5', color: 'danger' }
-      ]
     }
   }
 }

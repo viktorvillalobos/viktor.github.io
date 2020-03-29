@@ -2,20 +2,20 @@
   <section class="container">
     <b-navbar>
       <template slot="start">
-        <b-navbar-item href="#">
+        <b-navbar-item tag="router-link" to="/">
           Projects
         </b-navbar-item>
-        <b-navbar-item href="#">
+        <b-navbar-item tag="router-link" to="/about">
           About
         </b-navbar-item>
-        <b-navbar-item href="#">
-          Contact
-        </b-navbar-item>
+        <!-- <b-navbar-item href="#"> -->
+        <!--   Contact -->
+        <!-- </b-navbar-item> -->
       </template>
     </b-navbar>
-    <header class="section columns">
-      <div class="column is-half">
-        <h1>
+    <header class="section columns is-desktop is-multiline">
+      <div class="column is-half-desktop is-full-mobile">
+        <h1 class="header-title">
           Víctor Villalobos is a
           <vue-typed-js
             :type-speed="100"
@@ -29,7 +29,7 @@
           </vue-typed-js>
         </h1>
       </div>
-      <div class="column header-image is-half">
+      <div class="column header-image is-half-desktop">
         <img
           src="~/assets/img/header.png"
           srcset="~/assets/img/header2x.png 2x"

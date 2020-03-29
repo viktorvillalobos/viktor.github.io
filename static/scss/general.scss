@@ -23,3 +23,21 @@ footer {
     font-size: x-large;
     font-weight: bold;
 }
+
+
+
+@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+   header {
+    flex-direction: column-reverse;
+    display: flex;
+    margin-bottom: -15% !important;
+
+    .header-title {
+        font-size: 2rem;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        justify-items: center;
+        align-items: center;
+    }
+  }
+}
