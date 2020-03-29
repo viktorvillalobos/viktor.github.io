@@ -10,7 +10,7 @@
           <a href="https://www.linkedin.com/in/viktor-villalobos/">LinkedIn ></a>
           <a href="https://www.instagram.com/viktordeveloper/">Instagram ></a>
           <a href="https://github.com/viktorvillalobos">Github ></a>
-          <a href="https//freelancer.com/u/revxfire">Freelancer ></a>
+          <a href="https://freelancer.com/u/revxfire">Freelancer ></a>
           <a href="https://www.indiehackers.com/ViktorDeveloper">Indie Hackers ></a>
           <a href="https://stackoverflow.com/users/2202/victor-villalobos">StackOverFlow ></a>
           <a href="https://es.stackoverflow.com/users/2202/victor-villalobos">StackOverFlow Spanish ></a>
