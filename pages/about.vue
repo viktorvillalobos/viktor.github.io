@@ -12,7 +12,8 @@
           <a href="https://github.com/viktorvillalobos">Github ></a>
           <a href="https//freelancer.com/u/revxfire">Freelancer ></a>
           <a href="https://www.indiehackers.com/ViktorDeveloper">Indie Hackers ></a>
-          <a href="https://es.stackoverflow.com/users/2202/victor-villalobos">StackOverFlow ></a>
+          <a href="https://stackoverflow.com/users/2202/victor-villalobos">StackOverFlow ></a>
+          <a href="https://es.stackoverflow.com/users/2202/victor-villalobos">StackOverFlow Spanish ></a>
         </div>
         <div class="photo">
           <img src="~/assets/img/profile.jpeg" alt="profile photo">
@@ -31,15 +32,15 @@
         </p>
 
         <p>
-          Most recently, i work in  <a href="https://adslab.io">Adslab</a> an advertising saas platform who use scraping to make easy pubish the same ads in mutiple free ads sites,
+          Most recently, i worked in  <a href="https://adslab.io">Adslab</a> an advertising saas platform who use scraping to make easy publish ads in mutiple free ads sites,
           using scrapers to put ads in sites and generatic metrics for the user.
         </p>
         <p>
           Prior to Adslab, i worked as Tech Leader and Founder in Firesoft.org, a digital agency, who deliver more than 100 products in two years for more than 60 customers
-          around the world, during this time we create E-Commerse, SaaS platforms, Custom Design for personals webs, and many others interesting projects.
+          around the world, during this time we create E-Commerse, SaaS platforms and many others interesting projects.
         </p>
         <p>
-          Over the last year i am studying Data Science and Machine learning, to complement my knowledge as Sofware Developer and trying to find patterns to help us improve work in companies.
+          Over the last year i am studying Data Science and Machine learning, to complement my knowledge as Sofware Developer.
         </p>
       </div>
     </div>
