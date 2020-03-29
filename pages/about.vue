@@ -65,5 +65,5 @@ export default {
 </script>
 
 <style lang="scss">
-  @import '~/static/scss/pages/about.scss'
+  @import '~/assets/scss/pages/about.scss'
 </style>

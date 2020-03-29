@@ -73,6 +73,6 @@ export default {
 
 <style lang="scss">
 
-@import '~/static/scss/pages/home.scss';
+@import '~/assets/scss/pages/home.scss';
 
 </style>
