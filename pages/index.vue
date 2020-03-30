@@ -37,8 +37,8 @@ export default {
                      helping to improve the k8s infrastructure and monitoring services.`,
           url: 'https://talana.com/',
           images: [
-            { img: '/projects/talana/talana-employee-record-black.png', color: 'primary' },
-            { img: '/projects/talana/talana-dashboard-record-black.png', color: 'primary' }
+            { img: '/projects/talana/talana-employee-record-black.webp', color: 'primary' },
+            { img: '/projects/talana/talana-dashboard-record-black.webp', color: 'primary' }
           ]
         },
         {
@@ -48,12 +48,12 @@ export default {
                         publish ads in free ads sites, also handle multiple client projects.`,
           url: 'https://adslab.io/',
           images: [
-            { img: '/projects/adslab/adslab-landing-1.png', color: 'primary' },
-            { img: '/projects/adslab/adslab-landing-2.png', color: 'primary' },
-            { img: '/projects/adslab/adslab-landing-3.png', color: 'primary' },
-            { img: '/projects/adslab/adslab-landing-4.png', color: 'primary' },
-            { img: '/projects/adslab/adslab-landing-5.png', color: 'primary' },
-            { img: '/projects/adslab/adslab-landing-6.png', color: 'primary' }
+            { img: '/projects/adslab/adslab-landing-1.webp', color: 'primary' },
+            { img: '/projects/adslab/adslab-landing-2.webp', color: 'primary' },
+            { img: '/projects/adslab/adslab-landing-3.webp', color: 'primary' },
+            { img: '/projects/adslab/adslab-landing-4.webp', color: 'primary' },
+            { img: '/projects/adslab/adslab-landing-5.webp', color: 'primary' },
+            { img: '/projects/adslab/adslab-landing-6.webp', color: 'primary' }
           ]
         },
         {
@@ -62,9 +62,9 @@ export default {
           description: 'Spanish articles about python development.',
           url: 'https://pythonist.dev/',
           images: [
-            { img: '/projects/pythonist/pythonist-dev-1.png', color: 'primary' },
-            { img: '/projects/pythonist/pythonist-dev-2.png', color: 'primary' },
-            { img: '/projects/pythonist/pythonist-dev-3.png', color: 'primary' }
+            { img: '/projects/pythonist/pythonist-dev-1.webp', color: 'primary' },
+            { img: '/projects/pythonist/pythonist-dev-2.webp', color: 'primary' },
+            { img: '/projects/pythonist/pythonist-dev-3.webp', color: 'primary' }
           ]
         }
       ]
