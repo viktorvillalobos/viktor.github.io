@@ -5,11 +5,6 @@ body {
 }
 
 
-.columns {
-    width: 100%;
-}
-
-
 .nuxt-link-exact-active {
     color: $primary !important;
 }
@@ -36,7 +31,6 @@ footer {
 
 
 
-
 @media(max-width: 767px) { /* <== You can change this break point as per your  needs */
     body {
         width: 100% !important;
@@ -46,19 +40,18 @@ footer {
    header {
     flex-direction: column-reverse;
     display: flex;
-    
 
     .header-image {
         display: flex;
         justify-content: center;
-        margin-bottom: 2%;
+        // margin-bottom: -10%;
         img {
-            width: 70%;
+            width: 65%;
         }
     }
 
     .header-title {
-        font-size: 2.5rem;
+        font-size: 1.8rem;
         display: grid;
         grid-template-rows: 1fr 1fr;
         justify-items: center;

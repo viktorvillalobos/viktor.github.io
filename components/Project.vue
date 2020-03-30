@@ -1,30 +1,28 @@
 <template>
   <div class="project-item column is-10 is-offset-1">
-    <div class="project-header columns is-desktop has-text-centered">
+    <div class="project-header columns is-desktop">
       <div class="project-description column is-8 is-offset-1">
-        <p class="project-title title">
-          Talana.com: backend services and infrastructure.
+        <p class="project-title title is-size-3">
+          {{ title }}
         </p>
-        <p class="project-subtitle">
-          Backend services and authentication for talana employee profile, this handle
-          more than 1700 companies and more than 100,000 employee monthly.
+        <p class="project-subtitle is-size-5">
+          {{ subtitle }}
+        </p>
+        <p class="project-description">
+          {{ description }}
         </p>
       </div>
       <div class="show-work column is-2">
-        <b-button type="is-danger" size="is-medium" tag="a" target="_blank" href="https://talana.com">
+        <b-button type="is-danger" size="is-medium" tag="a" target="_blank" :href="url">
           Show work
         </b-button>
       </div>
     </div>
     <div class="project-content">
       <b-carousel class="column is-10 is-offset-1">
-        <b-carousel-item v-for="(carousel, i) in carousels" :key="i">
-          <section :class="`hero is-medium is-${carousel.color}`">
-            <div class="hero-body has-text-centered">
-              <h1 class="title">
-                {{ carousel.text }}
-              </h1>
-            </div>
+        <b-carousel-item v-for="(item, i) in images" :key="i">
+          <section>
+            <img :src="item.img" alt="img">
           </section>
         </b-carousel-item>
       </b-carousel>
@@ -35,24 +33,32 @@
 <script>
 export default {
   name: 'Project',
-  /* props: {
+  props: {
     title: {
       type: String,
       required: true
     },
-    icon: {
+    subtitle: {
       type: String,
       required: true
+    },
+    description: {
+      type: String,
+      required: true
+    },
+    url: {
+      type: String,
+      required: true
+    },
+    images: {
+      type: Array,
+      required: true
     }
-  }, */
+  },
   data () {
     return {
       carousels: [
-        { text: 'Slide 1', color: 'primary' },
-        { text: 'Slide 2', color: 'info' },
-        { text: 'Slide 3', color: 'success' },
-        { text: 'Slide 4', color: 'warning' },
-        { text: 'Slide 5', color: 'danger' }
+        { img: '/projects/talana/talana-employee-record-black.png', color: 'primary' }
       ]
     }
   }
