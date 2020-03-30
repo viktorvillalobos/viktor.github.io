@@ -21,7 +21,7 @@
     <div class="project-content">
       <b-carousel class="column is-10 is-offset-1" :indicator-inside="false" :overlay="gallery">
         <b-carousel-item v-for="(item, i) in images" :key="i">
-          <img :src="item.img" alt="img">
+          <img v-lazy-load :src="item.img" alt="img">
         </b-carousel-item>
       </b-carousel>
     </div>
