@@ -1,4 +1,3 @@
-
 export default {
   mode: 'universal',
   /*
@@ -49,8 +48,12 @@ export default {
   */
   buildModules: [
     // Doc: https://github.com/nuxt-community/eslint-module
-    '@nuxtjs/eslint-module'
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/google-analytics'
   ],
+  googleAnalytics: {
+    id: 'UA-162185382-1'
+  },
   /*
   ** Nuxt.js modules
   */

@@ -8,9 +8,9 @@
         <b-navbar-item tag="nuxt-link" to="/about" exact>
           About
         </b-navbar-item>
-        <!-- <b-navbar-item href="#"> -->
-        <!--   Contact -->
-        <!-- </b-navbar-item> -->
+        <b-navbar-item href="https://pythonist.dev/" target="_blank">
+          Blog
+        </b-navbar-item>
       </template>
     </b-navbar>
     <header class="section columns is-desktop is-multiline">
