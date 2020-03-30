@@ -84,7 +84,7 @@ header {
 }
 
 
-@media(max-width: 767px) { /* <== You can change this break point as per your  needs */
+@media(max-width: 768px) { /* <== You can change this break point as per your  needs */
     .projects {
         h2 {
             margin-bottom: 10%;
@@ -96,5 +96,9 @@ header {
         a {
             margin-bottom: 4%;
         }
+    }
+
+    .project-item {
+        text-align: center;
     }
 }
