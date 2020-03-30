@@ -16,7 +16,7 @@
           <a href="https://es.stackoverflow.com/users/2202/victor-villalobos">StackOverFlow Spanish ></a>
         </div>
         <div class="photo">
-          <img src="~/assets/img/profile.jpeg" alt="profile photo">
+          <img src="/img/profile.jpeg" alt="profile photo">
         </div>
       </div>
       <div class="column is-8 is-offset-1 about">

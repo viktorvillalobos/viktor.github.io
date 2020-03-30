@@ -31,11 +31,11 @@
       </div>
       <div class="column header-image is-half-desktop">
         <img
-          src="~/assets/img/header.webp"
+          src="/img/header.webp"
           srcset="
-            ~/assets/img/header-2x.webp 2x,
-            ~/assets/img/header-3x.webp 3x,
-            ~/assets/img/header-4x.webp 4x,
+            /img/header-2x.webp 2x,
+            /img/header-3x.webp 3x,
+            /img/header-4x.webp 4x,
           "
           alt="people-working"
         >
