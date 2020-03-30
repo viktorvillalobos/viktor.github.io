@@ -54,6 +54,17 @@ export default {
             { img: '/projects/adslab/adslab-landing-5.png', color: 'primary' },
             { img: '/projects/adslab/adslab-landing-6.png', color: 'primary' }
           ]
+        },
+        {
+          title: 'Pythonist.dev',
+          subtitle: 'Writer & Founder',
+          description: 'Spanish articles about python development.',
+          url: 'https://pythonist.dev/',
+          images: [
+            { img: '/projects/pythonist/pythonist-dev-1.png', color: 'primary' },
+            { img: '/projects/pythonist/pythonist-dev-2.png', color: 'primary' },
+            { img: '/projects/pythonist/pythonist-dev-3.png', color: 'primary' }
+          ]
         }
       ]
     }
