@@ -30,10 +30,11 @@ export default {
         {
           title: 'Talana',
           subtitle: 'Backend rest services and microservices',
-          description: `Talana is a Payroll & and Asistence platfor focused in make people happy, 
-                     helping in automate companies process using innovative software,i currently 
-                     work as Backend Developer & DevOps, implementing microservices, and 
-                     helping to improve the infrastructure.`,
+          description: `Talana is a Payroll & and Asistence platform focused in make people happy by
+                     helping to automate the internal processes of companies and communication with their
+                     employees process using innovative software solutions,i currently 
+                     work as a Backend Developer & DevOps, mainly implementing microservices, and 
+                     helping to improve the k8s infrastructure and monitoring services.`,
           url: 'https://talana.com/',
           images: [
             { img: '/projects/talana/talana-employee-record-black.png', color: 'primary' },
