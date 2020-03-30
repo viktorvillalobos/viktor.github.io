@@ -19,11 +19,9 @@
       </div>
     </div>
     <div class="project-content">
-      <b-carousel class="column is-10 is-offset-1">
+      <b-carousel class="column is-10 is-offset-1" :indicator-inside="false" :overlay="gallery">
         <b-carousel-item v-for="(item, i) in images" :key="i">
-          <section>
-            <img :src="item.img" alt="img">
-          </section>
+          <img :src="item.img" alt="img">
         </b-carousel-item>
       </b-carousel>
     </div>
@@ -57,9 +55,7 @@ export default {
   },
   data () {
     return {
-      carousels: [
-        { img: '/projects/talana/talana-employee-record-black.png', color: 'primary' }
-      ]
+      gallery: false
     }
   }
 }
