@@ -54,6 +54,9 @@ export default {
   googleAnalytics: {
     id: 'UA-162185382-1'
   },
+  buefy: {
+    materialDesignIcons: false
+  },
   /*
   ** Nuxt.js modules
   */
