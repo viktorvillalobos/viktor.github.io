@@ -22,8 +22,7 @@
       <b-carousel class="column is-10 is-offset-1" :indicator-inside="false" :overlay="gallery">
         <b-carousel-item v-for="(item, i) in images" :key="i">
           <picture>
-            <source v-lazy-load :src="item.webp" alt="img" type="img/webp">
-            <source v-lazy-load :src="item.img" alt="img" type="img/png">
+            <source v-lazy-load :srcset="item.webp" alt="img" type="image/webp">
             <img v-lazy-load :src="item.img" alt="img">
           </picture>
         </b-carousel-item>

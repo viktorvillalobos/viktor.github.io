@@ -32,24 +32,14 @@
       <div class="column header-image is-half-desktop">
         <picture>
           <source
-            src="/img/header.webp"
             srcset="
+              /img/header-2x.webp ,
               /img/header-2x.webp 2x,
               /img/header-3x.webp 3x,
               /img/header-4x.webp 4x,
             "
             alt="people-working"
-            type="img/webp"
-          >
-          <source
-            src="/img/header.png"
-            srcset="
-              /img/header-2x.png 2x,
-              /img/header-3x.png 3x,
-              /img/header-4x.png 4x,
-            "
-            alt="people-working"
-            type="img/png"
+            type="image/webp"
           >
           <img
             src="/img/header.png"
