@@ -30,15 +30,37 @@
         </h1>
       </div>
       <div class="column header-image is-half-desktop">
-        <img
-          src="/img/header.webp"
-          srcset="
-            /img/header-2x.webp 2x,
-            /img/header-3x.webp 3x,
-            /img/header-4x.webp 4x,
-          "
-          alt="people-working"
-        >
+        <picture>
+          <source
+            src="/img/header.webp"
+            srcset="
+              /img/header-2x.webp 2x,
+              /img/header-3x.webp 3x,
+              /img/header-4x.webp 4x,
+            "
+            alt="people-working"
+            type="img/webp"
+          >
+          <source
+            src="/img/header.png"
+            srcset="
+              /img/header-2x.png 2x,
+              /img/header-3x.png 3x,
+              /img/header-4x.png 4x,
+            "
+            alt="people-working"
+            type="img/png"
+          >
+          <img
+            src="/img/header.png"
+            srcset="
+              /img/header-2x.png 2x,
+              /img/header-3x.png 3x,
+              /img/header-4x.png 4x,
+            "
+            alt="people-working"
+          >
+        </picture>
       </div>
     </header>
     <main class="content">

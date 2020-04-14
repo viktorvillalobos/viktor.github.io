@@ -48,12 +48,12 @@ export default {
                         publish ads in free ads sites, also handle multiple client projects.`,
           url: 'https://adslab.io/',
           images: [
-            { img: '/projects/adslab/adslab-landing-1.webp', color: 'primary' },
-            { img: '/projects/adslab/adslab-landing-2.webp', color: 'primary' },
-            { img: '/projects/adslab/adslab-landing-3.webp', color: 'primary' },
-            { img: '/projects/adslab/adslab-landing-4.webp', color: 'primary' },
-            { img: '/projects/adslab/adslab-landing-5.webp', color: 'primary' },
-            { img: '/projects/adslab/adslab-landing-6.webp', color: 'primary' }
+            { webp: '/projects/adslab/adslab-landing-1.webp', img: '/projects/adslab/adslab-landing-1.png', color: 'primary' },
+            { webp: '/projects/adslab/adslab-landing-1.webp', img: '/projects/adslab/adslab-landing-2.png', color: 'primary' },
+            { webp: '/projects/adslab/adslab-landing-1.webp', img: '/projects/adslab/adslab-landing-3.png', color: 'primary' },
+            { webp: '/projects/adslab/adslab-landing-1.webp', img: '/projects/adslab/adslab-landing-4.png', color: 'primary' },
+            { webp: '/projects/adslab/adslab-landing-1.webp', img: '/projects/adslab/adslab-landing-5.png', color: 'primary' },
+            { webp: '/projects/adslab/adslab-landing-1.webp', img: '/projects/adslab/adslab-landing-6.png', color: 'primary' }
           ]
         },
         {
